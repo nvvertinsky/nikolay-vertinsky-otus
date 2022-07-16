@@ -1,0 +1,12 @@
+{
+  "name": "generateandsort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "type": "module",
+  "scripts": {
+    "generateFile": "node src/GenerateFile.js",
+    "sortFile": "node --max-old-space-size=50 src/SortFile.js",
+    "start": "npm run generateFile && npm run sortFile"
+  }
+}
