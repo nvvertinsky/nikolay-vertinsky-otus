@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "jest",
+    "start": "node ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nvvertinsky/nikolay-vertinsky-otus/issues"
   },
-  "homepage": "https://github.com/nvvertinsky/nikolay-vertinsky-otus#readme"
+  "homepage": "https://github.com/nvvertinsky/nikolay-vertinsky-otus#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
 }
